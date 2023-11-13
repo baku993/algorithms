@@ -1,6 +1,4 @@
-package sorting.deprecated.tt;
-
-import static sorting.deprecated.tt.SortingUtils.swap;
+package sortings.deprecated.tt;
 
 public class QuickSort implements Sorting {
     @Override
@@ -25,11 +23,11 @@ public class QuickSort implements Sorting {
         for (int i = start; i < end; i++) {
             if (array[i].compareTo(array[end]) > 0) {
                 pivotPos++;
-                swap(array, pivotPos, i);
+                SortingUtils.swap(array, pivotPos, i);
             }
         }
 
-        swap(array, pivotPos + 1, end);
+        SortingUtils.swap(array, pivotPos + 1, end);
 
         return pivotPos+1;
     }

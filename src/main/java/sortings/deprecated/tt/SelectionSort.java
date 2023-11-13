@@ -1,6 +1,6 @@
-package sorting.deprecated.tt;
+package sortings.deprecated.tt;
 
-import static sorting.deprecated.tt.SortingUtils.swap;
+import static sortings.deprecated.tt.SortingUtils.swap;
 
 public class SelectionSort implements Sorting {
     @Override

@@ -1,7 +1,6 @@
-package sortings;
+package sortings.deprecated.tt;
 
 import org.junit.jupiter.api.Test;
-import sorting.deprecated.tt.*;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package sorting.deprecated.tt;
+package sortings.deprecated.tt;
 
 public class HeapSort implements Sorting {
 
